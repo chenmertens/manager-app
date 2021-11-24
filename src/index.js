@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Calendar from './App';
 import reportWebVitals from './reportWebVitals';
+import FormBox from './FormBox';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Calendar />
+    <FormBox />
   </React.StrictMode>,
   document.getElementById('root')
 );
